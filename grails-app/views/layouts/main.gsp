@@ -50,7 +50,8 @@
 		<hr>
 		<div style="height: 90px"></div>
 		<nav class="navbar-fixed-bottom" role="navigation">
-			<g:img dir="images" file="footer.png" width="100%" height="100px" style="vertical-align:bottom;"/>
+			<g:img dir="images" file="footer.png" width="90%" height="100px" style="vertical-align:bottom;border-color: #ffffff"/>
+			<g:img dir="images" file="contact.png" width="140px" height="80px" style="vertical-align:bottom;position: absolute"/>
 		</nav>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
