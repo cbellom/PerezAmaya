@@ -9,31 +9,23 @@
     </div>
     <g:img dir="images" file="background.png" width="100%" height="100px" style="margin-top: 60px"/>
     <div class="row" style="margin-top: -130px; padding-left: 15%; width: 100%">
-        <div class="col-lg-2">
-            <div class="image-circle" style="background-color: #208554;">
-                <h2  class="circle-font">¿QUIENES SOMOS?</h2>
+        <g:form controller="menu">
+            <div class="col-lg-2">
+                <g:actionSubmit action="whoMenu" name="qs" value="¿QUIENES\nSOMOS?" class="image-circle" style="background-color: #208554;" />
             </div>
-        </div>
-        <div class="col-lg-2">
-            <div class="image-circle" style="background-color: #cf233f;">
-                <h2  class="circle-font" >PERSONAS NATURALES</h2>
+            <div class="col-lg-2">
+                <g:actionSubmit action="pnMenu" name="pn" value="PERSONAS\nNATURALES" class="image-circle" style="background-color: #cf233f;"/>
             </div>
-        </div>
-        <div class="col-lg-2">
-            <div class="image-circle" style="background-color: #13baa9;">
-                <h2  class="circle-font" >PERSONAS JURIDICAS</h2>
+            <div class="col-lg-2">
+                <g:actionSubmit action="pjMenu" name="pj" value="PERSONAS\nJURIDICAS" class="image-circle" style="background-color: #13baa9;"/>
             </div>
-        </div>
-        <div class="col-lg-2">
-            <div class="image-circle" style="background-color: #4d6b70;">
-                <h2  class="circle-font">CUPOS DE AFINIDAD</h2>
+            <div class="col-lg-2">
+                <g:actionSubmit action="caMenu" name="ca" value="CUPOS DE\nAFINIDAD" class="image-circle" style="background-color: #4d6b70;"/>
             </div>
-        </div>
-        <div class="col-lg-2">
-            <div class="image-circle" style="background-color: #e4b42c; ">
-                <h2 class="circle-font" style=" padding-top: 65px;">ALIADOS</h2>
+            <div class="col-lg-2">
+                <g:actionSubmit action="aMenu" name="ca" value="ALIADOS" class="image-circle" style="background-color: #e4b42c;"/>
             </div>
-        </div>
+        </g:form>
     </div>
     </body>
 </html>
