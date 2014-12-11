@@ -133,3 +133,11 @@ body {
   color : #4d6b70;
   text-align: center;
 }
+
+.menu-button{
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  margin-bottom: 5px;
+  width: 90px;
+  height: 70px;
+}

@@ -7,12 +7,14 @@
 
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-<head>
-    <meta name="layout" content="main"/>
-    <title>¿Quienes Somos?</title>
-</head>
+    <head>
+        <meta name="layout" content="mainMenu"/>
+        <title>¿Quienes Somos?</title>
+    </head>
+    <body>
+        <div class="container" style="width: 100%;">
 
-<body>
-
-</body>
+            <h1 class="">¿Quienes Somos?</h1>
+        </div>
+    </body>
 </html>
