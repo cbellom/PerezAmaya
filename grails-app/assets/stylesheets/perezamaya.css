@@ -83,8 +83,6 @@ body {
 .main .page-header {
   margin-top: 0;
 }
-
-
 /*
  * Placeholder dashboard ideas
  */
@@ -145,6 +143,7 @@ body {
   margin-bottom: 5px;
   width: 70px;
   height: 50px;
+  font-size: 0px;
 }
 
 .menu-button:hover{
@@ -153,12 +152,8 @@ body {
   margin-bottom: 5px;
   width: 70px;
   height: 80px;
+  font-size: 15px;
 }
-
-.menu-text:hover{
-  visibility: visible;
-}
-
 
 .text-info-who-page{
   color: #7d7d7f;

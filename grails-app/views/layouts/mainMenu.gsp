@@ -31,7 +31,9 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<g:img dir="images" file="icon.png" width="160" height="100" class="icon-header"/>
+						<a href="../">
+							<g:img dir="images" file="icon.png" width="160" height="100" class="icon-header"/>
+						</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<form class="navbar-form navbar-right" style="margin-top: 40px">
@@ -45,25 +47,36 @@
 		</div>
 		<div class="container" style="width: 100%;">
 			<div style="height: 90px"></div>
-
 			<div class="pull-right">
 				<a href="../" class="menu-button">
-					<div  class="menu-button" style="background-color: #bcbdc0;"></div>
+					<div  class="menu-button" style="background-color: #bcbdc0;">
+						<span class="menu-text" style="margin-left: -60px;color: #bcbdc0;">INICIO</span>
+					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'who')}" class="menu-button">
-					<div  class="menu-button" style="background-color: #208554;"></div>
+					<div  class="menu-button" style="background-color: #208554;">
+						<span class="menu-text" style="margin-left: -160px;color: #208554;">¿QUIENES SOMOS?</span>
+					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'naturalPersons')}" class="menu-button">
-					<div  class="menu-button" style="background-color: #cf233f;"></div>
+					<div  class="menu-button" style="background-color: #cf233f;">
+						<span class="menu-text" style="margin-left: -190px;color: #cf233f;">PERSONAS NATURALES</span>
+					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'legalPersons')}" class="menu-button">
-					<div  class="menu-button" style="background-color: #13baa9;"></div>
+					<div  class="menu-button" style="background-color: #13baa9;">
+						<span class="menu-text" style="margin-left: -180px;color: #13baa9;">PERSONAS JURIDICAS</span>
+					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'affinityGroups')}" class="menu-button">
-					<div  class="menu-button" style="background-color: #4d6b70;"></div>
+					<div  class="menu-button" style="background-color: #4d6b70;">
+						<span class="menu-text" style="margin-left: -180px;color: #4d6b70;">GRUPOS DE AFINIDAD</span>
+					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'partners')}" class="menu-button">
-					<div  class="menu-button" style="background-color: #e4b42c;"></div>
+					<div  class="menu-button" style="background-color: #e4b42c;">
+						<span class="menu-text" style="margin-left: -80px;color: #e4b42c;">ALIADOS</span>
+					</div>
 				</a>
 			</div>
 			<g:layoutBody/>

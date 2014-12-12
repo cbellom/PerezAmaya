@@ -31,7 +31,9 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<g:img dir="images" file="icon.png" width="160" height="100" class="icon-header"/>
+						<a href="#">
+							<g:img dir="images" file="icon.png" width="160" height="100" class="icon-header"/>
+						</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<form class="navbar-form navbar-right" style="margin-top: 40px">
