@@ -11,19 +11,19 @@
     <div class="row" style="margin-top: -130px; padding-left: 15%; width: 100%">
         <g:form controller="menu">
             <div class="col-lg-2">
-                <g:actionSubmit action="who" name="qs" value="¿QUIENES\nSOMOS?" class="image-circle" style="background-color: #208554;" />
+                <g:actionSubmit action="who" name="qs" value="¿QUIENES\nSOMOS?" class="image-circle circle-1" />
             </div>
             <div class="col-lg-2">
-                <g:actionSubmit action="naturalPersons" name="pn" value="PERSONAS\nNATURALES" class="image-circle" style="background-color: #cf233f;"/>
+                <g:actionSubmit action="naturalPersons" name="pn" value="PERSONAS\nNATURALES" class="image-circle circle-2"/>
             </div>
             <div class="col-lg-2">
-                <g:actionSubmit action="legalPersons" name="pj" value="PERSONAS\nJURIDICAS" class="image-circle" style="background-color: #13baa9;"/>
+                <g:actionSubmit action="legalPersons" name="pj" value="PERSONAS\nJURIDICAS" class="image-circle circle-3" />
             </div>
             <div class="col-lg-2">
-                <g:actionSubmit action="affinityGroups" name="ca" value="CUPOS DE\nAFINIDAD" class="image-circle" style="background-color: #4d6b70;"/>
+                <g:actionSubmit action="affinityGroups" name="ca" value="CUPOS DE\nAFINIDAD" class="image-circle circle-4" />
             </div>
             <div class="col-lg-2">
-                <g:actionSubmit action="partners" name="ca" value="ALIADOS" class="image-circle" style="background-color: #e4b42c;"/>
+                <g:actionSubmit action="partners" name="ca" value="ALIADOS" class="image-circle circle-5" />
             </div>
         </g:form>
     </div>
