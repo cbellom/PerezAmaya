@@ -108,6 +108,7 @@ body {
   width: 150px; height: 150px; top: 60%; border-radius: 50%;border-color: transparent;
   color: #ffffff;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .circle-font{
@@ -138,6 +139,25 @@ body {
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
   margin-bottom: 5px;
-  width: 90px;
-  height: 70px;
+  width: 70px;
+  height: 60px;
+}
+
+.text-info-who-page{
+  color: #7d7d7f;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.text-subtitle-who-page{
+  color:#3e3e3f;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.text-title-who-page{
+  color:#208554;
+  text-align: left;
+  font-size: 40px;
 }

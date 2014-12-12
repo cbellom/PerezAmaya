@@ -4,27 +4,27 @@ class MenuController {
 
     def index() {}
 
-    def whoMenu(){
+    def who(){
         render view: 'who';
     }
 
-    def pnMenu(){
-        render view: 'who';
+    def naturalPersons(){
+        render view: 'naturalPersons';
     }
 
-    def pjMenu(){
-        render view: 'who';
+    def legalPersons(){
+        render view: 'legalPersons';
     }
 
-    def caMenu(){
-        render view: 'who';
+    def affinityGroups(){
+        render view: 'affinityGroups';
     }
 
-    def aMenu(){
-        render view: 'who';
+    def partners(){
+        render view: 'partners';
     }
 
-    def contactMenu(){
-        render view: 'who';
+    def contact(){
+        render view: 'contact';
     }
 }

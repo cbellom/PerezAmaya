@@ -47,19 +47,22 @@
 			<div style="height: 90px"></div>
 
 			<div class="pull-right">
-				<a href="${createLink(controller:'menu', action:'contactMenu')}" class="menu-button">
+				<a href="../" class="menu-button">
+					<div  class="menu-button" style="background-color: #bcbdc0;"></div>
+				</a>
+				<a href="${createLink(controller:'menu', action:'who')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #208554;"></div>
 				</a>
-				<a href="${createLink(controller:'menu', action:'contactMenu')}" class="menu-button">
+				<a href="${createLink(controller:'menu', action:'naturalPersons')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #cf233f;"></div>
 				</a>
-				<a href="${createLink(controller:'menu', action:'contactMenu')}" class="menu-button">
+				<a href="${createLink(controller:'menu', action:'legalPersons')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #13baa9;"></div>
 				</a>
-				<a href="${createLink(controller:'menu', action:'contactMenu')}" class="menu-button">
+				<a href="${createLink(controller:'menu', action:'affinityGroups')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #4d6b70;"></div>
 				</a>
-				<a href="${createLink(controller:'menu', action:'contactMenu')}" class="menu-button">
+				<a href="${createLink(controller:'menu', action:'partners')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #e4b42c;"></div>
 				</a>
 			</div>
@@ -69,7 +72,7 @@
 		<div style="height: 90px"></div>
 		<nav class="navbar-fixed-bottom" role="navigation" style="background-color: #ffffff">
 			<g:img dir="images" file="footer.png" width="90%" height="100px" style="vertical-align:bottom;border-color: #ffffff"/>
-			<a href="${createLink(controller:'menu', action:'contactMenu')}">
+			<a href="${createLink(controller:'menu', action:'contact')}">
 				<g:img dir="images" file="contact.png" width="140px" height="80px" style="vertical-align:bottom;position: absolute"></g:img>
 			</a>
 		</nav>
