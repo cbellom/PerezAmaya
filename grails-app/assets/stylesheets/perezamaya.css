@@ -111,6 +111,8 @@ body {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 10px;
+  font-family: Champagne;
+  font-weight: bold;
 }
 
 .circle-font{
@@ -135,6 +137,8 @@ body {
 .indexTitle{
   color : #4d6b70;
   text-align: center;
+  font-weight: bold;
+  font-family: Champagne;
 }
 
 .menu-button{
@@ -144,6 +148,7 @@ body {
   width: 70px;
   height: 50px;
   font-size: 0px;
+  font-family: Champagne;
 }
 
 .menu-button:hover{
@@ -152,26 +157,32 @@ body {
   margin-bottom: 5px;
   width: 70px;
   height: 80px;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .text-info-who-page{
   color: #7d7d7f;
   text-align: justify;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: Champagne;
 }
 
 .text-subtitle-who-page{
   color:#3e3e3f;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 30px;
+  font-family: Champagne;
+  font-weight: bold;
 }
 
-.text-title-who-page{
+.text-title{
   color:#208554;
   text-align: left;
   font-size: 40px;
+  font-family: Champagne;
+  font-weight: bold;
 }
 
 .circle-1{
@@ -212,4 +223,33 @@ body {
 
 .circle-5:hover{
   background-color: #e1c471;
+}
+@font-face { font-family: Champagne; src: url('../fonts/Champagne%20&%20Limousines.ttf'); }
+
+@font-face { font-family: Champagne; font-weight: bold; src: url('../fonts/Champagne%20&%20Limousines%20Bold.ttf'); }
+
+/* 1st level */
+.nav label {
+  color: #848484;
+  font-size:15pt;
+  font-family: Champagne;
+}
+
+/* 2nd level */
+.tree > li > label {
+  padding:10px 15px;
+  font-family: Champagne;
+}
+
+/* 3rd level */
+.tree > li > ul > li > a {
+  color:#848484;
+  font-size:15pt;
+  margin-left:15px;
+  font-family: Champagne;
+}
+
+.background-radial-red {
+  background-position: center center;
+  background: radial-gradient(circle,#F5A9BC, #ffffff);
 }

@@ -55,7 +55,7 @@
 				</a>
 				<a href="${createLink(controller:'menu', action:'who')}" class="menu-button">
 					<div  class="menu-button" style="background-color: #208554;">
-						<span class="menu-text" style="margin-left: -160px;color: #208554;">¿QUIENES SOMOS?</span>
+						<span class="menu-text" style="margin-left: -160px;color: #208554;">QUIENES SOMOS?</span>
 					</div>
 				</a>
 				<a href="${createLink(controller:'menu', action:'naturalPersons')}" class="menu-button">

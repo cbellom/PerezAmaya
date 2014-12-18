@@ -9,11 +9,11 @@
 <html>
     <head>
         <meta name="layout" content="mainMenu"/>
-        <title>¿Quienes Somos?</title>
+        <title>Quienes Somos?</title>
     </head>
     <body>
         <div class="container" style="margin-left:30px; width:85%;">
-            <h1 class="text-title-who-page">¿Quienes Somos?</h1>
+            <h1 class="text-title">QUIENES SOMOS?</h1>
             <h3 class="text-subtitle-who-page">MISIÓN</h3>
             <span class="text-muted text-info-who-page">Somos una empresa dedicada a los servicios de aseguramiento, ofreciendo una asesoría integral, buscando los mejores beneficios entre las compañías aseguradoras líderes del mercado y garantizando un óptimo cubrimiento del patrimonio de nuestros clientes.</span>
             <h3 class="text-subtitle-who-page">VISIÓN</h3>
