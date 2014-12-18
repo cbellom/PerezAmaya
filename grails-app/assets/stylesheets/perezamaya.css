@@ -232,6 +232,7 @@ body {
 .nav label {
   color: #848484;
   font-size:15pt;
+  width: 300px;
   font-family: Champagne;
 }
 
@@ -252,4 +253,19 @@ body {
 .background-radial-red {
   background-position: center center;
   background: radial-gradient(circle,#F5A9BC, #ffffff);
+}
+
+.background-radial-blue1 {
+  background-position: center center;
+  background: radial-gradient(circle,#CEE3F6, #ffffff);
+}
+
+.background-radial-blue2 {
+  background-position: center center;
+  background: radial-gradient(circle,#BDBDBD, #ffffff);
+}
+
+.img-body-text{
+  margin-left: 100px;
+  margin-top: -70px;
 }

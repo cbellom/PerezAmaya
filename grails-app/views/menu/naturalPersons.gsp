@@ -34,6 +34,9 @@
                     <li><label class="tree-toggler nav-header background-radial-red">Seguro de Vida</label></li>
                 </ul>
             </div>
+            <div class="col-md-7">
+                <g:img dir="images" file="text1.png"  width="633" height="480" class="img-body-text"/>
+            </div>
         </div>
     </div>
 </body>
