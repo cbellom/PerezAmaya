@@ -84,7 +84,7 @@
 		<hr>
 		<div style="height: 90px"></div>
 		<nav class="navbar-fixed-bottom" role="navigation" style="background-color: #ffffff">
-			<g:img dir="images" file="footer.png" width="90%" height="100px" style="vertical-align:bottom;border-color: #ffffff"/>
+			<g:img dir="images" file="footer.png" width="90%" height="100px" style="vertical-align:bottom;border-color: #ffffff; opacity: 0.8"/>
 			<a href="${createLink(controller:'menu', action:'contact')}">
 				<g:img dir="images" file="contact.png" width="140px" height="80px" style="vertical-align:bottom;position: absolute"></g:img>
 			</a>
