@@ -255,14 +255,29 @@ body {
   background: radial-gradient(circle,#F5A9BC, #ffffff);
 }
 
-.background-radial-blue1 {
+.background-radial-red:hover {
+  background-position: center center;
+  background: radial-gradient(circle,#FF55AA, #ffffff);
+}
+
+.background-radial-blue {
   background-position: center center;
   background: radial-gradient(circle,#CEE3F6, #ffffff);
 }
 
-.background-radial-blue2 {
+.background-radial-blue:hover {
+  background-position: center center;
+  background: radial-gradient(circle,#81BEF7, #ffffff);
+}
+
+.background-radial-gray {
   background-position: center center;
   background: radial-gradient(circle,#BDBDBD, #ffffff);
+}
+
+.background-radial-gray:hover {
+  background-position: center center;
+  background: radial-gradient(circle,#A4A4A4, #ffffff);
 }
 
 .img-body-text{

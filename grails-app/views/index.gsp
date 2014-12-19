@@ -8,7 +8,7 @@
         <h1 class="indexTitle">Asegurese su tranquilidad.<br/>40 años de experiencia en el servicio</h1>
     </div>
     <g:img dir="images" file="background.png" width="100%" height="100px" style="margin-top: 60px"/>
-    <div class="row" style="margin-top: -130px; padding-left: 15%; width: 100%">
+    <div class="row" style="margin-top: -130px; padding-left: 17%; width: 100%">
         <g:form controller="menu">
             <div class="col-lg-2">
                 <g:actionSubmit action="who" name="qs" value="QUIENES\nSOMOS?" class="image-circle circle-1" />

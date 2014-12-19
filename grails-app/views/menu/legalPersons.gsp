@@ -17,13 +17,13 @@
     <div class="row">
         <div class="col-md-3">
             <ul class="nav nav-list ">
-                <li><label class="tree-toggler nav-header background-radial-blue1">Áreas Comunes</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Áreas Comunes</label></li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Pyme</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Pyme</label></li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Cumplimiento</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Cumplimiento</label></li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Responsabilidad Civil</label>
+                <li><label class="tree-toggler nav-header background-radial-blue">Responsabilidad Civil</label>
                     <ul class="nav nav-list tree">
                         <li><a href="#">Extracontractual</a></li>
                         <li><a href="#">Constructores</a></li>
@@ -32,11 +32,11 @@
                     </ul>
                 </li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Maquinaria y equipo</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Maquinaria y equipo</label></li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Todo riesgo Construcción y Montaje</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Todo riesgo Construcción y Montaje</label></li>
                 <li class="divider"></li>
-                <li><label class="tree-toggler nav-header background-radial-blue1">Riesgos Laborales</label></li>
+                <li><label class="tree-toggler nav-header background-radial-blue">Riesgos Laborales</label></li>
             </ul>
         </div>
         <div class="col-md-7">
