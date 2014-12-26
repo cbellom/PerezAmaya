@@ -245,7 +245,7 @@ body {
 /* 3rd level */
 .tree > li > ul > li > a {
   color:#848484;
-  font-size:15pt;
+  font-size:15px;
   margin-left:15px;
   font-family: Champagne;
 }
@@ -283,4 +283,18 @@ body {
 .img-body-text{
   margin-left: 100px;
   margin-top: -70px;
+}
+
+.text-subtitle-contact{
+  color:#13baa9;
+  font-family: Champagne;
+  font-size:28px;
+  font-weight: bold;
+}
+
+.text-contact{
+  color:#231a4d;
+  font-family: Champagne;
+  font-size:18px;
+  font-weight: bold;
 }

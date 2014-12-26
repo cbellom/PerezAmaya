@@ -27,4 +27,13 @@ class MenuController {
     def contact(){
         render view: 'contact';
     }
+
+    def send(){
+        sendMail {
+            to "bottestdummymail@gmail.com"
+            subject "Test Mail"
+            body "test mail!"
+        }
+        render view: 'contact';
+    }
 }
